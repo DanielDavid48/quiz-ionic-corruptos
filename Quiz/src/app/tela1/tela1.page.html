@@ -1,0 +1,233 @@
+<ion-content>
+  <div class="container">
+    <h6>Pergunta 1</h6>
+    <h1 class="pergunta">
+      Quais são os candidatos ao planalto em 2022? 
+    </h1>
+    <ion-list>
+      <ion-radio-group value="teste"  (ionChange)="radioGroupChange($event, 'pergunta1')"  #pergunta1>
+        <ion-item>
+          <ion-label text-wrap>Jair Bolsonaro, Luiz Inácio Lula, Pablo Marçal, Felipe D'avla, Ciro Gomes</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Jair Bolsonaro, Luiz Inácio Lula, Pablo Marçal, Felipe D'avla, Marcos Pinto</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Jairo Dominique, Luiz Inácio Lula, Jair Bolsonaro, Carlos Marcos</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 2</h6>
+    <h1 class="pergunta">
+      Qual é o candidato ao planalto em 2022 que participou do maior esquema de 
+      corrupção do mundo?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta2')"  #pergunta2>
+        <ion-item>
+          <ion-label text-wrap>Jair Bolsonaro</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Luiz Inácio Lula</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Ciro Gomes</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 3</h6>
+    <h1 class="pergunta">
+      Qual foi o presidente antes de Jair Bolsonaro que se declarou de direita?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta3')"  #pergunta3>
+        <ion-item>
+          <ion-label text-wrap>Itamar Franco</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Fernando Collor</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>José Sarney</ion-label>
+          <ion-radio slot="start" value="errado2"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label text-wrap>João Figueireido</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 4</h6>
+    <h1 class="pergunta">
+      Qual é o candidato ao planalto em 2022 que apoiou e apoia o ditador da Venezuela, Nicolás Maduro, 
+      o qual levou o país a uma crise econômica e social?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta4')"  #pergunta4>
+        <ion-item>
+          <ion-label text-wrap>Soraya Thronicke </ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Ciro Gomes</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Felipe D'Avila</ion-label>
+          <ion-radio slot="start" value="errado2"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label text-wrap>Luiz Inácio Lula</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 5</h6>
+    <h1 class="pergunta">
+      Qual é o candidato ao planalto em 2022 que sobre o confronto no leste europeu declarou que não condena a guerra
+      e que o país que iníciou a guerra, a Rússia, tem seus motivos?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta5')"  #pergunta5>
+        <ion-item>
+          <ion-label text-wrap>Soraya Thronicke </ion-label>
+          <ion-radio slot="start" value="errado2"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Ciro Gomes</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Jair Bolsonaro</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label text-wrap>Luiz Inácio Lula</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 6</h6>
+    <h1 class="pergunta">
+      Qual foi o presidente que sucedeu a presidenta Dilma Rousseff após ser cassada em 2016?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta6')"  #pergunta6>
+        <ion-item>
+          <ion-label text-wrap>Lula </ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Jair Bolsonaro</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Temer</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label text-wrap>Rodrigo Pacheco</ion-label>
+          <ion-radio slot="start" value="errado2"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 7</h6>
+    <h1 class="pergunta">
+      Qual foi a emissora de televisão que apoiou a tomada de poder pelos militares em 1964?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta7')"   #pergunta7>
+        <ion-item>
+          <ion-label text-wrap>TV Globo</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>SBT</ion-label>
+          <ion-radio slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Record</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label text-wrap>Band</ion-label>
+          <ion-radio slot="start" value="errado2"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="container">
+    <h6>Pergunta 8</h6>
+    <h1 class="pergunta">
+      Qual foi o juiz que condenou o ex-presidente Lula a 12 anos de prisão?
+    </h1>
+    <ion-list>
+      <ion-radio-group value="biff" (ionChange)="radioGroupChange($event, 'pergunta8')"  #pergunta8>
+        <ion-item>
+          <ion-label text-wrap>Luiz Roberto Barroso</ion-label>
+          <ion-radio  slot="start" value="errado1"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Marco Aurélio</ion-label>
+          <ion-radio slot="start" value="errado"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label text-wrap>Sérgio Moro</ion-label>
+          <ion-radio slot="start" value="correto"></ion-radio>
+        </ion-item>
+
+      </ion-radio-group>
+    </ion-list>
+  </div>
+<center>
+  <button class="btn" (click)="prosseguir()">Prosseguir</button>
+</center>
+</ion-content>

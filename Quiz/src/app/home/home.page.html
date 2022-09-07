@@ -1,0 +1,32 @@
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="container">
+      <img src="assets/pt.png" width="60%" alt="">
+    </div>
+    <p>Se conecte para jogar</p>
+    <ion-item id="center">
+      <ion-label position="floating">Usuário</ion-label>
+      <ion-input  (ionInput)="retiraErro()" [(ngModel)]="user"></ion-input>
+    </ion-item>
+    <small class="erro">{{userErro}}</small>
+
+    <ion-item id="center">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type='password' (ionInput)="retiraErro()" [(ngModel)]="pass"></ion-input>
+    </ion-item>
+    <small class="erro">{{passErro}}</small>
+
+    <button id="btn" (click)="pesquisaLogin()">logar</button>
+  </div>
+  <div class="credits">
+    <p>QUIZ v1.0</p>
+  </div>
+</ion-content>

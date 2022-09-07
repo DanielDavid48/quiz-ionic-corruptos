@@ -1,0 +1,27 @@
+
+
+<ion-content>
+  <div class="container">
+    <center>
+      <img src="assets/pt.png" width="50%" alt="">
+    </center>
+    <h1 class="pergunta">Quiz político</h1>
+    <h6>Vote consciente, vote 22</h6>
+  </div>
+  <div class="container">
+    <!-- Resultados do quiz -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title><strong>Resultado</strong></ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p class="card-p"><strong>Você acertou:</strong> {{pontos}} perguntas</p>
+        <p class="card-p"><strong>Você errou:</strong> {{erros}} perguntas</p>
+        <p class="card-p"><strong>Considerações finais:</strong> {{msg}}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <center>
+    <button class="btn" routerLink="/tela1">Reiniciar Quiz</button>
+  </center>
+</ion-content>
